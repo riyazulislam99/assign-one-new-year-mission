@@ -406,6 +406,7 @@
     width: 1320px;
     height: 616px;
     flex-shrink: 0;
+    margin-bottom: 120px;
 }
 
 .newsletter h1 {
@@ -473,4 +474,84 @@
     background: #F00;
     border: none;
     padding: 24px 56px;
+}
+
+/* footer related styles */
+.footer {
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 1600px;
+    margin: 120px 0px auto;
+}
+
+.all-info p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.info {
+    display: flex;
+    gap: 700px;
+}
+
+.snd-info {
+    display: flex;
+}
+
+#big {
+    padding-left: 140px;
+    padding-top: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+#num {
+    padding-top: 120px;
+    padding-right: 291px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+#copy {
+    padding-left: 140px;
+    padding-bottom: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#unsbs {
+    padding-right: 140px;
+    padding-bottom: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#fimg{
+    margin-left: 600px;
+    gap: 20px;
 }
