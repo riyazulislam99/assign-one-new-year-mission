@@ -1,0 +1,259 @@
+/* shared styles */
+<style>@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+</style>* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.container h3 h1 {
+    font-family: 'Merriweather', serif;
+}
+
+/* header related styles */
+
+.banner {
+    background-image: url("../resources/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.banner-text {
+    text-align: center;
+    color: #FFF;
+    max-width: 632px;
+    padding-left: 344px;
+    padding-top: 133px;
+    padding-bottom: 177px;
+}
+
+.banner-heading {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 16px;
+}
+
+/* section related styles */
+
+.section-head h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.section-head h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section-head #categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.img-section {
+    margin: auto 398px;
+
+}
+
+/* section 2 related styles */
+
+.wlc-banner-content {
+    background-image: url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+/* .wlc-banner{
+    display: flex;
+} */
+
+.wlc-banner-content h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 74px;
+    font-weight: 900;
+    line-height: 88px;
+    width: 642px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.wlc-banner-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-left: 126px;
+}
+
+.wlc-banner-content h1 p {
+    padding-left: 126px;
+    padding-top: 126px;
+}
+
+.wlc-banner-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 142px;
+    padding-right: 1059px;
+    padding-left: 158px;
+}
+
+/* section 3 related styles */
+
+.time-section {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+}
+
+.time h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 56px;
+    text-transform: capitalize;
+    width: 580px;
+    padding: 100px 386px 0px 385px;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 110px;
+    margin-top: 48px;
+}
+
+#button {
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 16px 32px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* section 4 related styles */
+
+.offer-section {
+    display: flex;
+}
+
+.offer-section h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+}
+
+.offer-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.offer-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 32px;
+    width: 393px;
+    margin-right: 70px;
+}
+
+#img-circle {
+    width: 364.844px;
+    height: 364.844px;
+    padding-top: 17px;
+    padding-left: 17px;
+}
+
+.offer-section #offer-img-section {
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+#year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 118px;
+}
+
+#dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-left: 118px;
+}
+
+#year-png {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-left: 118px;
+}
